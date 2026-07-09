@@ -1,0 +1,50 @@
+# AuraCode specific
+*.aura.cache
+*.aurac
+__auracache__/
+aura_output/
+generated_art/
+
+# Python (bootstrap VM)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+.venv/
+
+# Virtual Machine / Compiler outputs
+*.vm
+*.bytecode
+*.bin
+*.exe
+*.out
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*\~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Documentation / Temp
+*.tmp
+temp/
+tmp/
+
+# Future build artifacts
+/target/
+dist/
+out/
